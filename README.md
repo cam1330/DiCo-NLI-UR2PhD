@@ -45,7 +45,7 @@ The three reported metrics are:
 
 ## Repository Structure
 
-- `DiCo_NLI_UR2PhD.ipynb` — Google Colab notebook containing the experiments
+- `dico_nli_assignment_CAMILA.ipynb` — Google Colab notebook containing the experiments
 - `predictions/` — development-set prediction CSV files for each reported system
 
 ## Reproducing the Results
