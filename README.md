@@ -32,6 +32,10 @@ strategies:
 The generated responses were converted to the four required DiCo-NLI labels
 using a parser.
 
+All 660 development-set outputs were successfully parsed for both prompting
+variants (0 unparsed outputs). A fallback to `NEGATIVE_OTHER` was implemented
+for any output that could not be parsed.
+
 ## Evaluation
 
 All systems were evaluated on the official 660-item Track 1 development set
@@ -50,7 +54,7 @@ The three reported metrics are:
 
 ## Reproducing the Results
 
-1. Open `DiCo_NLI_UR2PhD.ipynb` in Google Colab.
+1. Open `dico_nli_assignment_CAMILA.ipynb` in Google Colab.
 2. Run the notebook cells in order.
 3. The notebook loads the DiCo-NLI data and required models.
 4. Run the System A cells to fine-tune DistilBERT with seeds 42 and 123.
